@@ -1,7 +1,11 @@
 {
-  "name": "vue-iview-opt",
+  "name": "vue-iview-ui",
   "version": "0.1.0",
-  "private": true,
+  "author": "Sophie",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bingxuelover/vue-iview-ui.git"
+  },
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint --no-error-on-unmatched-pattern --ext .vue --ext .js --ext .jsx packages/**/ src/**/ --fix"
