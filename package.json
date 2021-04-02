@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build:next": "rollup -c",
+    "build": "rollup -c",
     "lint": "eslint --no-error-on-unmatched-pattern --ext .vue --ext .js --ext .jsx packages/**/ src/**/ --fix"
+  },
+  "peerDependencies": {
+    "iview": "^3.5.4",
+    "vue": "^2.6.11"
   },
   "dependencies": {
     "@vue/compiler-sfc": "^3.0.10",
