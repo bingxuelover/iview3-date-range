@@ -1,10 +1,10 @@
 {
-  "name": "vue-iview-ui",
-  "version": "0.1.0",
+  "name": "iview3-date-range",
+  "version": "0.1.1",
   "author": "Sophie",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bingxuelover/vue-iview-ui.git"
+    "url": "git@github.com:bingxuelover/iview3-date-range.git"
   },
   "scripts": {
     "build": "rollup -c",
